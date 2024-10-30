@@ -1,7 +1,7 @@
 
 # Reto 2.2
 Nombre y Apellidos: Pablo Rodríguez Crespo
-URL del repositorio de gitlab:
+URL del repositorio de gitlab: https://github.com/Pablosax9/ODAW2_RETO.2.2.git
 
 ## Preguntas:
 Sigue los siguientes pasos para completar el ejercicio:
