@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Bordes en CSS</title>
+    <style>
+        .caja {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            padding: 20px;
+            border-top: 2px solid red; /* Borde sólido superior */
+            border-right: 4px dotted green; /* Borde punteado derecho */
+            border-bottom: 6px dashed blue; /* Borde discontinuo inferior */
+            border-left: 8px double orange; /* Borde doble izquierdo */
+        }
+
+        .caja-atajo {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 4px solid purple; /* Borde de 4px sólido y púrpura */
+        }
+
+        .caja-bordes-especificos {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            padding: 20px;
+            border-top: 3px solid turquoise; /* Borde superior de 3px sólido y color turquesa */
+            border-bottom: 3px solid teal; /* Borde inferior de 3px sólido y color teal */
+            border-left: none; /* Sin borde izquierdo */
+            border-right: none; /* Sin borde derecho */
+        }
+
+        .caja-irregular {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            padding: 20px;
+            border-top-left-radius: 40px; /* Esquina superior izquierda */
+            border-top-right-radius: 10px; /* Esquina superior derecha */
+            border-bottom-right-radius: 30px; /* Esquina inferior derecha */
+            border-bottom-left-radius: 5px; /* Esquina inferior izquierda */
+            background-color: lightgray; /* Color de fondo para ver los bordes */
+        }
+
+        .caja-esquina-especifica {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid black; /* Borde general para el div */
+            border-top-left-radius: 25px; /* Esquina superior izquierda redondeada */
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <p>Este es el div caja.</p>
+    </div>    
+    <div class="caja-atajo">
+        <p>Este es el div caja-atajo.</p>
+    </div>
+    <div class="caja-bordes-especificos">
+        <p>Este es el div caja-bordes-especificos.</p>
+    </div>
+    <div class="caja-irregular">
+        <p>Este es el div caja-irregular.</p>
+    </div>
+    <div class="caja-esquina-especifica">
+        <p>Este es el div caja-esquina-especifica.</p>
+    </div>
+</body>
+</html>
